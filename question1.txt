@@ -1,0 +1,5 @@
+USE world;
+SELECT * FROM country;
+SELECT * 
+FROM city c 
+JOIN country o ON c.city=o.country WHERE o.CountryCode="USA";

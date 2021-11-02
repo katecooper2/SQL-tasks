@@ -1,0 +1,4 @@
+USE world;
+SELECT * FROM country;
+populaton = 37032000
+life expectancy = 75.1
