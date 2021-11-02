@@ -1,0 +1,4 @@
+USE world;
+SELECT * 
+FROM city t1
+JOIN country t2 ON t1.ID = t2.Capital;
