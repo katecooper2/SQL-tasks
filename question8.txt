@@ -1,0 +1,2 @@
+USE World;
+SELECT Population IS NOT NULL FROM country ORDER BY Population ASC LIMIT 1; 
