@@ -1,0 +1,2 @@
+USE world;
+SELECT COUNT(ID) FROM city c JOIN country o ON c.CountryCode=o.CODE WHERE o.Name="China"
