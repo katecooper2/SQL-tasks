@@ -1,0 +1,3 @@
+USE world;
+SELECT LifeExpectancy FROM Country ORDER BY LifeExpectancy DESC LIMIT 1;
+Andorra
